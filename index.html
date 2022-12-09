@@ -14,15 +14,37 @@
 
     <div class="page-content">
         <div class="number-input-container">
-            <input class="minNumberInput" type="number">
-            <input class="maxNumberInput" type="number">
+            <input class="minNumberInput" type="text">
+            <input class="maxNumberInput" type="text">
         </div>
         <div class="generate-button-container">   
             <button class="generateButton" type="button">Generate Random Number</button>    
         </div>
+        <p> hello </p>
     </div>
 
     <div class="footer">Made by &#169 Salah Lazzouni </div>
+
+    <!-- <script>
+        const minNumber = document.querySelector('.minNumberInput');
+        const maxNumber = document.querySelector('.maxNumberInput');
+        const answer = document.querySelector('p');
+        const button = document.querySelector(".generateButton");
+
+        function generateRandomNumber(min,max){
+            return Math.floor(Math.random() * (max*min+1) + min);
+        }
+
+        button.addEventListener("click",showRandomNumber());
+
+        function showRandomNumber(){
+            answer.textContent = `${generateRandomNumber(minNumberInput,maxNumberInput)} is your random number!`;
+        }
+
+    </script> -->
+
+
+    
 
 
 </body>
