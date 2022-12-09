@@ -11,6 +11,7 @@ input[type=number] {
 
 body{
     margin: 0%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
@@ -24,7 +25,29 @@ body{
     color: wheat;
 }
 
+/* Page Content */
 
+.page-content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.number-input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+/* Generate Random Number Button
+
+.generate-button-container{
+    display: flex;
+    flex-direction: column;
+} */
 
 /* Footer */
 
