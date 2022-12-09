@@ -42,18 +42,17 @@ body{
     margin-bottom: 5px;
 }
 
-/* Generate Random Number Button
 
-.generate-button-container{
-    display: flex;
-    flex-direction: column;
-} */
 
 /* Footer */
 
 .footer{
+    padding: 5px 0px;
     background-color: #e32636;
     color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
