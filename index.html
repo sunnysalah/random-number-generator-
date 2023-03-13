@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Number Generator</title>
     <link rel="stylesheet" href="./styles.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
 </head>
 <body>
 
@@ -14,34 +14,17 @@
 
     <div class="page-content">
         <div class="number-input-container">
-            <input class="minNumberInput" type="text">
-            <input class="maxNumberInput" type="text">
+            <input class="minNumberInput" type="number" min="1" max="50">
+            <input class="maxNumberInput" type="number" min="1" max="50">
         </div>
         <div class="generate-button-container">   
-            <button class="generateButton" type="submit">Generate Random Number</button>    
+            <input class="generateButton" type="submit" value="Click me!"></input>    
         </div>
-        <p> hello </p>
+        <p>  </p>
     </div>
 
     <div class="footer">Made by &#169 Salah Lazzouni </div>
 
-    <!-- <script>
-        const minNumber = document.querySelector('.minNumberInput');
-        const maxNumber = document.querySelector('.maxNumberInput');
-        const answer = document.querySelector('p');
-        const button = document.querySelector(".generateButton");
-
-        function generateRandomNumber(min,max){
-            return Math.floor(Math.random() * (max*min+1) + min);
-        }
-
-        button.addEventListener("click",showRandomNumber());
-
-        function showRandomNumber(){
-            answer.textContent = `${generateRandomNumber(minNumberInput,maxNumberInput)} is your random number!`;
-        }
-
-    </script> -->
 
 
     
